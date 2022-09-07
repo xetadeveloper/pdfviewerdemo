@@ -34,7 +34,6 @@ export default function App(props) {
     const anchorRef = useRef();
 
     useEffect(() => {
-        // Have to do this also in SignHouse to avoid dimension error when translating location to PDF
         createPDFBlob();
     }, []);
 
@@ -155,8 +154,6 @@ export default function App(props) {
                 ref={containerRef}
                 className={`${style.canvasContainer}`}
                 style={{
-                    //  Have to do this also in SignHouse to avoid dimension
-                    // error when translating location to PDF
                     height: canvasHeight,
                     width: canvasWidth,
                 }}>
