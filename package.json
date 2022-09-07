@@ -3,11 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@dnd-kit/core": "^6.0.5",
+    "@dnd-kit/modifiers": "^6.0.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "interactjs": "^1.10.17",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^2.16.105",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-rnd": "^10.3.7",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
   },

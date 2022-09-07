@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    resize: both;
+    margin: 10px;
+    padding: 10px;
+    height: 600px;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    border: 2px solid red;
+    overflow: auto;
+}
+
+.dropTarget {
+    padding: 10px;
+    border: 2px solid green;
+    width: 70%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.dragContainer {
+    position: relative;
+    border: 2px solid #800069;
+    width: 30%;
+    border-right: none;
+}
+
+.appDragBlock {
+    line-height: 20px;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    background-color: teal;
+    font-weight: 800;
+    color: white;
+    font-size: 12px;
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
